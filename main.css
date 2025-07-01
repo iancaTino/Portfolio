@@ -124,7 +124,9 @@ button,
     margin-top: auto;
 }
 
-
+.projeto-ebac .botoes {
+    margin-top: 50px; 
+}
 
 .projetos {
     padding: 20px 0;
