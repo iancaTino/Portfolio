@@ -30,6 +30,5 @@ Utilizar elementos simples, mas que transmitem personalidade 💖🌿.
 
 Passar informação na medida certa, sem poluir o visual ☁️🌼.
 
--- 
 Esse projeto é meu cartão de visitas digital e também meu cantinho criativo 🌺💻. Ele está sempre em evolução — assim como eu 🌿💫.
 https://portfolio-theta-neon-jltopicjc7.vercel.app/
