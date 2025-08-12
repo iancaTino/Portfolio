@@ -1,36 +1,34 @@
-# Projeto: Portfólio Pessoal
-Esse é meu portfólio online, feito do zero com HTML e CSS, para mostrar quem eu sou e o que eu sei fazer. O foco principal foi criar uma landing page responsiva, com um visual limpo, moderno e que transmite profissionalismo — sem firula, só conteúdo que importa.
+Projeto: Portfólio Pessoal 🌷💻
+Esse é meu portfólio online, feito do zero com HTML e CSS, para mostrar quem eu sou e o que eu sei fazer. O foco principal foi criar uma landing page responsiva, com um visual limpo, moderno e que transmite profissionalismo — simples, mas com carinho ✨🤍.
 
-## O que tem nele?
+O que tem nele? 🌿
+Apresentação pessoal: minha foto, nome e uma descrição rápida dizendo que sou desenvolvedora Full Stack em formação, com aquele toque motivacional 🌸💫.
 
-Apresentação pessoal: minha foto, nome e uma descrição rápida dizendo que sou desenvolvedora Full Stack em formação, com aquele toque motivacional 🚀.
+Botões úteis: link para baixar meu currículo em PDF 📄🌼 e contato direto via WhatsApp 📱💌 — porque facilitar a vida do recrutador é essencial.
 
-Botões úteis: link para baixar meu currículo em PDF e contato direto via WhatsApp — porque facilitar a vida do recrutador é essencial.
+Projetos em destaque: cards com imagens 🖼️🌿, descrição curta e links para os projetos completos e para o código no GitHub 🐙💖. Tem até projeto em andamento feito com a ajuda do meu irmão designer 🎨🌷, mostrando que sei trabalhar em equipe.
 
-Projetos em destaque: cards com imagens, descrição curta e links para os projetos completos e para o código no GitHub. Tem até projeto em andamento feito com a ajuda do meu irmão designer, pra mostrar que sei trabalhar em time.
+Sobre mim: texto sincero falando do meu background, habilidades e motivação, para dar aquela humanizada 🌺💬.
 
-Sobre mim: texto sincero falando do meu background, habilidades e motivação, pra dar aquela humanizada.
+Skills visuais: barra de progresso 📊🌸 para mostrar meu nível em HTML, CSS, JS e Git — de forma clara e delicada.
 
-Skills visuais: barra de progresso pra mostrar meu nível em HTML, CSS, JS e Git — sem enrolação, na lata.
+Redes sociais: ícones que levam direto para meus perfis, incluindo GitHub, LinkedIn, Instagram e e-mail ✉️🌿, todos com um toque visual suave e animações discretas.
 
-Redes sociais: ícones que levam direto para meus perfis, incluindo GitHub, LinkedIn, Instagram e e-mail, tudo estilizado e com hover animado.
+Tecnologias usadas: 🪄
+HTML5 e CSS3 puro, com flexbox e media queries para responsividade 📱💻.
 
-## Tecnologias usadas:
+Fontes Google Fonts (PT Serif), para dar elegância tipográfica ✒️🌼.
 
-HTML5 e CSS3 puro, com flexbox e media queries para responsividade.
+Layout clean, cores suaves e detalhes em laranja pastel 🍊🤍, para transmitir leveza.
 
-Fontes Google Fonts (PT Serif), pra dar aquele charme.
+O que aprendi? 🌸
+Criar uma estrutura organizada e agradável aos olhos 👀✨.
 
-Layout clean, cores suaves com detalhes em laranja pra dar personalidade.
+Aplicar responsividade na prática, garantindo que funcione bem em qualquer dispositivo 📱🌷.
 
-## O que aprendi?
+Utilizar elementos simples, mas que transmitem personalidade 💖🌿.
 
-Como montar uma estrutura de site organizada e sem bagunça.
+Passar informação na medida certa, sem poluir o visual ☁️🌼.
 
-Responsividade na prática, garantindo que funcione bem no celular e no desktop.
-
-Usar botões, links, imagens e formulários simples mas funcionais.
-
-Passar informação na medida certa, sem exageros.
-
-Esse projeto é meu cartão de visitas digital e meu laboratório pra testar novos códigos, designs e ideias. Tá sempre em evolução, porque eu tô sempre evoluindo!
+Esse projeto é meu cartão de visitas digital e também meu cantinho criativo 🌺💻. Ele está sempre em evolução — assim como eu 🌿💫.
+https://portfolio-theta-neon-jltopicjc7.vercel.app/
