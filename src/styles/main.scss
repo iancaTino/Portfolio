@@ -1,0 +1,17 @@
+@use 'variables';
+@use 'header';
+@use 'hero';
+@use 'about';
+@use 'projects';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: variables.$color-background;
+    font-family: Playfair Display, serif;
+}

@@ -1,0 +1,47 @@
+@use 'variables';
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 5.6vw;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 100;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        position: relative;
+
+        h2 {
+            color: variables.$color-text;
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: variables.$font-family-base;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+
+            li a {
+                font-family: variables.$font-family-alt;
+                color: variables.$color-text-secondary;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 1.1rem;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: variables.$color-secondary;
+                }
+            }
+        }
+    }
+}
