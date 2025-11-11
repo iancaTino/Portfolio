@@ -1,16 +1,18 @@
 # 🌸 Portfólio — Ianca Laurentino 🌸  
 
-> 💻 Desenvolvedora Front-End em construção | Criando com amor, café e muita curiosidade ☕  
+🔗 **Acesse o projeto online:** [👉 Clique aqui](COLOQUE_SEU_LINK_AQUI)  
+
+> 💻 Desenvolvedora Front-End em construção | Pensando em desistir, mas aí lembro que meu site tá bonitinho 😌
 
 ---
 
 ## 🎀 Sobre o Projeto  
 
 Oiê! Eu sou a **Ianca Laurentino**, estudante de **Full Stack Python** e apaixonada por front-end.  
-Este portfólio é meu espacinho na web pra mostrar meus projetos, minha evolução e um pouquinho de quem eu sou.  
+Este portfólio é meu espacinho na web pra mostrar meus projetos, minha evolução e um pouquinho de quem eu sou 💕  
 
 🌷 **Atenção:** o site ainda está em **manutenção**, viu? 💅  
-Tô sempre ajustando coisinhas, aprendendo novas tecnologias e deixando tudo mais bonito e funcional.  
+Tô sempre ajustando coisinhas, aprendendo novas tecnologias e deixando tudo mais bonito e funcional ✨  
 
 ---
 
@@ -28,12 +30,7 @@ Tô sempre ajustando coisinhas, aprendendo novas tecnologias e deixando tudo mai
 
 - **HTML5**  
 - **CSS3 + SASS / LESS**  
-- **Gulp / Grunt** (pra automatizar o processo)  
+- **Parcel** (para empacotamento e build do projeto)  
 - **Bootstrap Icons**  
 - Um toque de **JavaScript** pra dar vida às interações ✨  
-
----
-
-## 💾 Estrutura do Projeto  
-
 
