@@ -130,10 +130,11 @@
         }
     }
 
+    .scroll-down,
     .bi-arrow-down-short {
         font-size: 2rem;
         color: variables.$color-primary;
-        animation: bounce 1.5s infinite ease-in-out;
+        animation: moveArrow 1.5s infinite ease-in-out;
         cursor: pointer;
         transition: transform 0.3s ease;
 
@@ -143,7 +144,7 @@
         }
     }
 
-    @keyframes bounce {
+    @keyframes moveArrow {
 
         0%,
         100% {
@@ -154,6 +155,7 @@
             transform: translateY(10px);
         }
     }
+
 
     /* Responsividade */
     @media (max-width: 768px) {
