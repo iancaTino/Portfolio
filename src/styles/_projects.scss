@@ -154,13 +154,17 @@
 
         p {
             font-size: 1rem;
-            max-width: 85%;
+            max-width: 100%;
         }
 
         .cards-container {
             grid-template-columns: 1fr;
             width: 90%;
             margin: 0 auto;
+
+            span {
+                margin-bottom: 0.5rem;
+            }
         }
     }
 }
