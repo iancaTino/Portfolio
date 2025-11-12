@@ -56,36 +56,4 @@ footer {
         margin-bottom: 1rem;
     }
 
-    .emoji-title {
-        font-size: 3rem;
-        display: inline-block;
-        animation: bounceEmoji 2s infinite ease-in-out;
-        cursor: default;
-        transition: transform 0.3s ease;
-
-        &:hover {
-            transform: scale(1.2) rotate(10deg);
-        }
-    }
-
-    @keyframes bounceEmoji {
-
-        0%,
-        100% {
-            transform: translateY(0);
-        }
-
-        25% {
-            transform: translateY(-10px) rotate(-5deg);
-        }
-
-        50% {
-            transform: translateY(5px) rotate(5deg);
-        }
-
-        75% {
-            transform: translateY(-5px) rotate(-2deg);
-        }
-    }
-
 }

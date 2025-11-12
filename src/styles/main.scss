@@ -17,3 +17,24 @@ body {
     background-color: variables.$color-background;
     font-family: Playfair Display, serif;
 }
+
+.msg-box {
+    position: fixed;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #222;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 9999;
+}
+
+.msg-box.show {
+    top: 20px;
+    opacity: 1;
+}
