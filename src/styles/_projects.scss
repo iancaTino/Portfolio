@@ -17,6 +17,7 @@
 
     p {
         color: variables.$color-text-secondary;
+        font-family: variables.$font-family-alt;
         max-width: 600px;
         font-size: 1.2rem;
         line-height: 1.5;
@@ -44,14 +45,12 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
         }
 
-        .card-image {
-            img {
-                width: 100%;
-                height: 200px;
-                object-fit: cover;
-                border-radius: 20px 20px 0 0;
-                transition: opacity 0.3s ease;
-            }
+        .card-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px 20px 0 0;
+            transition: opacity 0.3s ease;
         }
 
         .card-content {
@@ -126,12 +125,44 @@
         }
     }
 
-    // === Responsividade ===
+    // --- Tablet ---
+    @media (max-width: 1024px) {
+        padding: 3rem 2rem 4rem 2rem;
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        p {
+            font-size: 1.05rem;
+            max-width: 500px;
+        }
+
+        .cards-container {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    // --- Celular ---
     @media (max-width: 768px) {
         padding: 3rem 1rem 4rem 1rem;
 
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        p {
+            font-size: 1rem;
+            max-width: 85%;
+        }
+
         .cards-container {
-            grid-template-columns: 1fr; // uma coluna no mobile
+            grid-template-columns: 1fr;
+            width: 90%;
+            margin: 0 auto;
         }
     }
 }

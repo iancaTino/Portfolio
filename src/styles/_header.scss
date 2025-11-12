@@ -24,11 +24,17 @@ header {
             font-size: 1.5rem;
             font-weight: 500;
             font-family: variables.$font-family-base;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: variables.$color-secondary;
+            }
         }
 
         .nav-links {
             display: flex;
             gap: 2rem;
+            list-style: none;
 
             li a {
                 font-family: variables.$font-family-alt;
@@ -43,5 +49,109 @@ header {
                 }
             }
         }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            z-index: 101;
+
+            .bar {
+                width: 25px;
+                height: 3px;
+                background-color: variables.$color-text;
+                border-radius: 3px;
+                transition: all 0.3s ease;
+            }
+
+            .flower {
+                display: none;
+                font-size: 1.6rem;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                animation: bloom 0.5s ease forwards;
+            }
+
+            &.active {
+                .bar {
+                    opacity: 0;
+                }
+
+                .flower {
+                    display: block;
+                    animation: bloom 0.4s ease forwards;
+                }
+            }
+        }
+    }
+}
+
+@keyframes bloom {
+    0% {
+        transform: scale(0) rotate(0deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 4vw;
+
+        .navbar {
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 55px;
+                right: 0;
+                width: 120px;
+                background-color: variables.$color-accent;
+                padding: 20px;
+                border-radius: 20px;
+                backdrop-filter: blur(8px);
+                animation: slideDown 0.3s ease forwards;
+
+                li {
+                    margin: 10px 0;
+                }
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+        }
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
     }
 }

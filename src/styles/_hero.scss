@@ -52,6 +52,7 @@
         width: 200px;
         height: 200px;
         border-radius: 50%;
+        margin-top: 3rem;
         object-fit: cover;
         box-shadow: 0 0 30px rgba(255, 92, 116, 0.6);
         margin-bottom: 2rem;
@@ -157,7 +158,6 @@
     }
 
 
-    /* Responsividade */
     @media (max-width: 768px) {
         h1 {
             font-size: 2.2rem;
@@ -170,6 +170,23 @@
         &__image img {
             width: 150px;
             height: 150px;
+            margin-top: 5rem;
         }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+        margin-top: 3rem;
     }
 }

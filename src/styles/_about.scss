@@ -65,7 +65,6 @@
                 align-items: center;
                 gap: 0.6rem;
 
-
                 i {
                     color: #ff5fa2;
                     font-size: 1.3rem;
@@ -88,5 +87,77 @@
         line-height: 1.4;
         transition: all 0.4s ease;
         box-shadow: 0 0 6px rgba(255, 192, 224, 0.3);
+    }
+
+    @media (max-width: 768px) {
+        padding: 3rem 1.5rem;
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+            padding: 0 0.5rem;
+        }
+
+        .skills {
+            margin-top: 2rem;
+
+            h2 {
+                font-size: 1.3rem;
+
+                i {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .skills-list {
+                gap: 1rem;
+                padding: 1rem;
+
+                li {
+                    font-size: 0.95rem;
+                    padding: 0.6rem 1.2rem;
+                    border-radius: 40px;
+
+                    i {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &__quote {
+            max-width: 100%;
+            font-size: 0.9rem;
+            padding: 0.8rem 1rem;
+            border-radius: 14px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        padding: 2.5rem 1rem;
+
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        .skills-list {
+            flex-direction: column;
+            gap: 0.8rem;
+
+            li {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        &__quote {
+            font-size: 0.85rem;
+            padding: 0.7rem 0.9rem;
+        }
     }
 }
