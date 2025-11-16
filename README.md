@@ -15,6 +15,7 @@
 > 💻 Desenvolvedora Front-End em construção | Pensando em desistir, mas aí lembro que meu site tá bonitinho 😌
 
 </div>
+
 ---
 
 ## 🎀 Sobre o Projeto
