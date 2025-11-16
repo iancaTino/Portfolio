@@ -1,7 +1,20 @@
 # 🌸 Portfólio — Ianca Laurentino 🌸
 
 🔗 **Acesse o projeto online:**  
-[👉 Clique aqui](https://ianca-portfolio.vercel.app/)
+## 🌐 Acesse o Projeto
+
+<div align="center">
+
+### 🔗 Meu Portfólio Online
+
+💖 **Clique no card abaixo para visitar:**
+
+  
+🩷 **[🌸 Acessar Portfólio 🌸](https://ianca-portfolio.vercel.app/)**  
+*Versão online, bonitinha e responsiva — vai lá ver!*
+
+</div>
+
 
 > 💻 Desenvolvedora Front-End em construção | Pensando em desistir, mas aí lembro que meu site tá bonitinho 😌
 
