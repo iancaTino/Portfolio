@@ -1,8 +1,5 @@
-# 🌸 Portfólio — Ianca Laurentino 🌸
 
-🔗 **Acesse o projeto online:**  
-## 🌐 Acesse o Projeto
-
+*🌸 Portfólio — Ianca Laurentino 🌸*
 <div align="center">
 
 ### 🔗 Meu Portfólio Online
