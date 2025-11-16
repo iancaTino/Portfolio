@@ -9,15 +9,12 @@
 
 💖 **Clique no card abaixo para visitar:**
 
-  
 🩷 **[🌸 Acessar Portfólio 🌸](https://ianca-portfolio.vercel.app/)**  
 *Versão online, bonitinha e responsiva — vai lá ver!*
 
-</div>
-
-
 > 💻 Desenvolvedora Front-End em construção | Pensando em desistir, mas aí lembro que meu site tá bonitinho 😌
 
+</div>
 ---
 
 ## 🎀 Sobre o Projeto
