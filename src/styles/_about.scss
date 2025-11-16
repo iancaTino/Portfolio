@@ -4,7 +4,6 @@
     padding: 5rem 3rem;
     background-color: variables.$color-background-alt;
     text-align: center;
-    transition: all 0.3s ease;
 
     h2 {
         font-family: variables.$font-family-base;
@@ -29,6 +28,11 @@
         line-height: 1.7;
     }
 
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
     .skills {
         text-align: center;
         margin-top: 3.5rem;
@@ -42,7 +46,6 @@
                 color: transparent;
                 -webkit-text-stroke: 1px #ff80bf;
                 font-size: 1.8rem;
-                transition: all 0.3s ease;
             }
         }
 
@@ -72,7 +75,6 @@
 
                 &:hover {
                     transform: scale(1.05);
-                    background: lighten(variables.$color-accent, 8%);
                 }
 
                 i {
@@ -96,21 +98,17 @@
         margin: 2rem auto 0;
         line-height: 1.5;
         box-shadow: 0 0 10px rgba(255, 192, 224, 0.35);
-        transition: all 0.4s ease;
     }
 
-    /* ====== 1024px ====== */
     @media (max-width: 1024px) {
         padding: 4rem 2rem;
 
         h2 {
             font-size: 2rem;
-            margin-bottom: 1.5rem;
         }
 
         p {
             font-size: 1.1rem;
-            line-height: 1.6;
             max-width: 600px;
         }
 
@@ -129,20 +127,16 @@
         }
     }
 
-    /* ====== 769px ====== */
     @media (max-width: 769px) {
         padding: 3.5rem 1.8rem;
 
         h2 {
             font-size: 1.8rem;
-            margin-bottom: 1.3rem;
         }
 
         p {
             font-size: 1rem;
-            line-height: 1.6;
             max-width: 90%;
-            margin: 0 auto 1.5rem;
         }
 
         .skills {
@@ -150,7 +144,6 @@
 
             h2 {
                 font-size: 1.4rem;
-                margin-bottom: 1rem;
 
                 i {
                     font-size: 1.5rem;
@@ -159,7 +152,6 @@
 
             .skills-list {
                 width: 100%;
-                justify-content: center;
                 gap: 1rem;
                 padding: 1.5rem;
 
@@ -177,25 +169,20 @@
 
         &__quote {
             font-size: 0.9rem;
-            padding: 1rem 1.2rem;
             max-width: 400px;
         }
     }
 
-    /* ====== 480px ====== */
     @media (max-width: 480px) {
         padding: 2.5rem 1rem;
 
         h2 {
             font-size: 1.5rem;
-            margin-bottom: 1rem;
         }
 
         p {
             font-size: 0.95rem;
             max-width: 95%;
-            margin: 0 auto 1.2rem;
-            line-height: 1.5;
         }
 
         .skills {
@@ -203,7 +190,6 @@
 
             h2 {
                 font-size: 1.2rem;
-                margin-bottom: 1rem;
 
                 i {
                     font-size: 1.3rem;
@@ -211,14 +197,12 @@
             }
 
             .skills-list {
-                width: 100%;
 
                 li {
                     font-size: 0.95rem;
 
                     i {
                         font-size: 1rem;
-                        color: #ff5fa2;
                     }
 
                     &:hover {
@@ -233,8 +217,6 @@
         &__quote {
             font-size: 0.85rem;
             padding: 0.8rem 1rem;
-            border-radius: 14px;
-            margin-top: 1.5rem;
         }
     }
 }

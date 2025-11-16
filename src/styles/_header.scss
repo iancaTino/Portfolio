@@ -2,14 +2,21 @@
 
 header {
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 20px 5.6vw;
+    padding: 18px 6vw;
     display: flex;
     justify-content: center;
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
     z-index: 100;
+    transition: background 0.3s ease, padding 0.3s ease;
+    backdrop-filter: blur(12px);
+
+    &.scrolled {
+        background-color: rgba(variables.$color-accent, 0.85);
+        padding: 14px 6vw;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    }
 
     .navbar {
         display: flex;
@@ -17,13 +24,13 @@ header {
         justify-content: space-between;
         width: 100%;
         max-width: 1200px;
-        position: relative;
 
         h2 {
             color: variables.$color-text;
-            font-size: 1.5rem;
-            font-weight: 500;
+            font-size: 1.6rem;
+            font-weight: 300;
             font-family: variables.$font-family-base;
+            cursor: pointer;
             transition: color 0.3s ease;
 
             &:hover {
@@ -33,14 +40,13 @@ header {
 
         .nav-links {
             display: flex;
-            gap: 2rem;
+            gap: 2.2rem;
             list-style: none;
 
             li a {
                 font-family: variables.$font-family-alt;
                 color: variables.$color-text-secondary;
                 text-decoration: none;
-                font-weight: 400;
                 font-size: 1.1rem;
                 transition: color 0.3s ease;
 
@@ -53,30 +59,26 @@ header {
         .menu-toggle {
             display: none;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
             gap: 6px;
             background: none;
             border: none;
             cursor: pointer;
-            position: relative;
-            z-index: 101;
+            z-index: 105;
 
             .bar {
-                width: 25px;
+                width: 26px;
                 height: 3px;
                 background-color: variables.$color-text;
-                border-radius: 3px;
-                transition: all 0.3s ease;
+                border-radius: 4px;
+                transition: 0.3s ease;
             }
 
             .flower {
                 display: none;
-                font-size: 1.6rem;
+                font-size: 1.7rem;
                 position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                animation: bloom 0.5s ease forwards;
+                animation: bloom 0.4s ease forwards;
             }
 
             &.active {
@@ -86,7 +88,6 @@ header {
 
                 .flower {
                     display: block;
-                    animation: bloom 0.4s ease forwards;
                 }
             }
         }
@@ -105,39 +106,42 @@ header {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
+
     header {
-        padding: 15px 4vw;
+        padding: 16px 5vw;
 
         .navbar {
-            h2 {
-                font-size: 1.2rem;
-            }
 
             .nav-links {
-                display: none;
-                flex-direction: column;
-                align-items: center;
                 position: absolute;
-                top: 55px;
-                right: 0;
-                width: 120px;
-                background-color: variables.$color-accent;
+                top: 70px;
+                right: 20px;
+                width: 160px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
                 padding: 20px;
-                border-radius: 20px;
-                backdrop-filter: blur(8px);
-                animation: slideDown 0.3s ease forwards;
+                border-radius: 18px;
+                display: none;
+                background-color: rgba(variables.$color-accent, 0.92);
+                backdrop-filter: blur(10px);
+                animation: slideDown 0.25s ease forwards;
 
                 li {
-                    margin: 10px 0;
+                    width: 100%;
+                }
+
+                a {
+                    font-size: 1rem;
                 }
             }
 
-            .menu-toggle {
+            .nav-links.active {
                 display: flex;
             }
 
-            .nav-links.active {
+            .menu-toggle {
                 display: flex;
             }
         }
@@ -146,12 +150,22 @@ header {
 
 @keyframes slideDown {
     from {
-        transform: translateY(-10px);
+        transform: translateY(-12px);
         opacity: 0;
     }
 
     to {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 14px 4vw;
+
+        .navbar h2 {
+            font-size: 1.4rem;
+        }
     }
 }

@@ -3,7 +3,7 @@
 .projects {
     text-align: center;
     background: variables.$color-background;
-    padding: 4rem 2rem 6rem 2rem;
+    padding: 4rem 2rem 6rem;
 
     h2 {
         color: variables.$color-text-secondary;
@@ -20,24 +20,22 @@
         font-family: variables.$font-family-alt;
         max-width: 600px;
         font-size: 1.2rem;
-        font-weight: 300;
         line-height: 1.5;
-        margin: 0 auto 3rem auto;
+        margin: 0 auto 3rem;
     }
 
     .cards-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         gap: 2rem;
-        justify-content: center;
     }
 
     .card {
         background: variables.$color-background-alt;
         border-radius: 20px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease;
         overflow: hidden;
-        transition: all 0.3s ease;
         display: flex;
         flex-direction: column;
 
@@ -50,8 +48,6 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
-            border-radius: 20px 20px 0 0;
-            transition: opacity 0.3s ease;
         }
 
         .card-content {
@@ -60,24 +56,22 @@
 
             h3 {
                 font-size: 1.2rem;
+                font-weight: 500;
                 font-family: variables.$font-family-alt;
-                font-weight: 400;
                 margin-bottom: 0.5rem;
                 color: #222;
             }
 
             p {
-                color: variables.$color-text-secondary;
                 font-size: 0.95rem;
                 margin-bottom: 1rem;
-                line-height: 1.3;
             }
 
             .tags {
                 margin-bottom: 1.5rem;
 
                 span {
-                    background: #f9e7eb;
+                    background: #f3f3f3;
                     color: #555;
                     border-radius: 20px;
                     padding: 0.3rem 0.8rem;
@@ -97,10 +91,9 @@
                     text-decoration: none;
                     font-size: 0.9rem;
                     font-family: variables.$font-family-alt;
-                    font-weight: 400;
                     padding: 0.6rem;
                     border-radius: 30px;
-                    transition: background 0.3s ease;
+                    transition: 0.3s ease;
 
                     &.btn-code {
                         background: #fff;
@@ -126,28 +119,23 @@
         }
     }
 
+    /* -------------------- RESPONSIVO -------------------- */
+
     @media (max-width: 1024px) {
-        padding: 3rem 2rem 4rem 2rem;
+        padding: 3rem 2rem 4rem;
 
         h2 {
             font-size: 1.8rem;
         }
 
         p {
-            font-size: 1.05rem;
             max-width: 500px;
-        }
-
-        .cards-container {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1.5rem;
-            width: 90%;
-            margin: 0 auto;
+            font-size: 1.05rem;
         }
     }
 
     @media (max-width: 768px) {
-        padding: 3rem 1rem 4rem 1rem;
+        padding: 3rem 1rem 4rem;
 
         h2 {
             font-size: 1.6rem;
@@ -155,18 +143,12 @@
 
         p {
             font-size: 1rem;
-            width: 300;
-            font-weight: 300;
         }
 
         .cards-container {
             grid-template-columns: 1fr;
-            width: 90%;
-            margin: 0 auto;
-
-            span {
-                margin-bottom: 0.5rem;
-            }
+            gap: 1.5rem;
+            width: 100%;
         }
     }
 }
