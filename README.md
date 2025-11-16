@@ -1,11 +1,10 @@
 
 <div align="center">
 
-**🌸 Portfólio — Ianca Laurentino 🌸**
-
-💖 **Clique no card abaixo para visitar:**
+# 🌸 Portfólio — Ianca Laurentino 🌸
 
 🩷 **[🌸 Acessar Portfólio 🌸](https://ianca-portfolio.vercel.app/)**  
+
 *Versão online, bonitinha e responsiva — vai lá ver!*
 
 > 💻 Desenvolvedora Front-End em construção | Pensando em desistir, mas aí lembro que meu site tá bonitinho 😌
