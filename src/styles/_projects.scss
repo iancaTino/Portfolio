@@ -6,21 +6,25 @@
     padding: 4rem 2rem 6rem;
 
     h2 {
+        font-family: variables.$font-family-base;
         color: variables.$color-text-secondary;
-        font-size: 2rem;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
+        font-size: 2.4rem;
+        font-weight: 300;
+        letter-spacing: 0.5px;
 
         span {
-            color: variables.$color-primary;
+            color: variables.$color-secondary;
         }
     }
 
     p {
         color: variables.$color-text-secondary;
         font-family: variables.$font-family-alt;
-        max-width: 600px;
+        max-width: 700px;
         font-size: 1.2rem;
-        line-height: 1.5;
+        font-weight: 300;
+        line-height: 1.7;
         margin: 0 auto 3rem;
     }
 
@@ -119,8 +123,6 @@
         }
     }
 
-    /* -------------------- RESPONSIVO -------------------- */
-
     @media (max-width: 1024px) {
         padding: 3rem 2rem 4rem;
 
@@ -138,11 +140,12 @@
         padding: 3rem 1rem 4rem;
 
         h2 {
-            font-size: 1.6rem;
+            font-size: 2rem;
         }
 
         p {
             font-size: 1rem;
+            max-width: 90%;
         }
 
         .cards-container {
