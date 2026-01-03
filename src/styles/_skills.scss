@@ -62,7 +62,10 @@
 
         i {
             font-size: 1.1rem;
+            background-color: variables.$color-accent;
             color: variables.$color-secondary;
+            padding: 0.4rem;
+            border-radius: 8px;
         }
     }
 }
